@@ -40,4 +40,4 @@ jobs:
             --name CustomScript \
             --force-update \
             --publisher Microsoft.Azure.Extensions \
-            --settings '{"commandToExecute": "/home/azureuser/cicd-demo/update_app.sh"}'
+            --settings '{"commandToExecute": "bash /home/azureuser/cicd-demo/update_app.sh"}'
